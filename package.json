@@ -1,0 +1,37 @@
+{
+  "name": "react-beeble-authorization",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "authorization",
+    "beeble"
+  ],
+  "author": "Ömer Emrecan Tuna",
+  "license": "ISC",
+  "description": "Authorization component for react js",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beebletech/react-beeble-authorization.git"
+  },
+  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "pub": "tsc && npm version patch --force --git-tag-version false && npm publish"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/react": "^19.0.2",
+    "typescript": "^5.7.2"
+  }
+}
